@@ -2,7 +2,7 @@
 
 save_dir="eval_results1/"
 global_record_file="eval_results1/eval_record_collection.csv"
-model="/workspace/MoE_pruning/mixtral8x7B_Instruct_pruning1experts"
+model="kaaiiii/Mixtral_prune_1_experts"
 selected_subjects="all"
 gpu_util=0.8
 

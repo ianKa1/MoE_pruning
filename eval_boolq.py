@@ -17,7 +17,9 @@ llm = LLM(
     dtype="float16",
     trust_remote_code=True,
     tensor_parallel_size=2,
-    gpu_memory_utilization=0.80
+    gpu_memory_utilization=0.60,
+    disable_custom_all_reduce=True,
+    disable_log_stats=True
 )
 
 sampling_params = SamplingParams(
