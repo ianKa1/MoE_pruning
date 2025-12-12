@@ -5,3 +5,15 @@ Average accuracy 0.3371 - business
 Average accuracy 0.2385 - chemistry
 Average accuracy 0.3829 - computer science
 Average accuracy 0.5071 - economics
+Average accuracy 0.2766 - engineering
+Average accuracy 0.4303 - health
+Average accuracy 0.4173 - history
+Average accuracy 0.2380 - law
+Average accuracy 0.3087 - math
+Average accuracy 0.4275 - other
+Average accuracy 0.3567 - philosophy
+Average accuracy 0.2956 - physics
+Average accuracy 0.5150 - psychology
+
+------average acc sta------
+Average accuracy: 0.3646

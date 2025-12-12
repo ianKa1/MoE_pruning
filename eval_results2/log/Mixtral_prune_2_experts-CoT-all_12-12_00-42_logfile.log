@@ -161,3 +161,40 @@ engineering
 2025-12-12 00:50:05,994 INFO this batch accu is: 0.5059241706161137, corr: 427.0, wrong: 417.0
 
 2025-12-12 00:50:06,000 INFO evaluating engineering
+2025-12-12 00:51:35,343 INFO 969size batch costing time: 87.52320909500122
+2025-12-12 00:51:41,218 INFO this batch accu is: 0.2755417956656347, corr: 267.0, wrong: 702.0
+
+2025-12-12 00:51:41,229 INFO evaluating health
+2025-12-12 00:52:40,267 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-12-12 00:52:40,348 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-12-12 00:52:40,730 INFO 818size batch costing time: 57.81059670448303
+2025-12-12 00:52:43,547 INFO this batch accu is: 0.43031784841075793, corr: 352.0, wrong: 466.0
+
+2025-12-12 00:52:43,556 INFO evaluating history
+2025-12-12 00:53:21,009 INFO 381size batch costing time: 33.149993896484375
+2025-12-12 00:53:21,939 INFO this batch accu is: 0.41732283464566927, corr: 159.0, wrong: 222.0
+
+2025-12-12 00:53:21,944 INFO evaluating law
+2025-12-12 00:54:29,125 INFO 1101size batch costing time: 63.96992492675781
+2025-12-12 00:54:30,711 INFO this batch accu is: 0.23705722070844687, corr: 261.0, wrong: 840.0
+
+2025-12-12 00:54:30,726 INFO evaluating math
+2025-12-12 00:57:10,448 INFO 1351size batch costing time: 156.4117579460144
+2025-12-12 00:57:39,399 INFO this batch accu is: 0.306439674315322, corr: 414.0, wrong: 937.0
+
+2025-12-12 00:57:39,413 INFO evaluating other
+2025-12-12 00:57:59,391 INFO 924size batch costing time: 18.410693407058716
+2025-12-12 00:57:59,408 INFO this batch accu is: 0.4264069264069264, corr: 394.0, wrong: 530.0
+
+2025-12-12 00:57:59,415 INFO evaluating philosophy
+2025-12-12 00:58:55,660 INFO 499size batch costing time: 55.38395643234253
+2025-12-12 00:59:19,967 INFO this batch accu is: 0.35671342685370744, corr: 178.0, wrong: 321.0
+
+2025-12-12 00:59:19,975 INFO evaluating physics
+2025-12-12 01:00:47,906 INFO 1299size batch costing time: 85.3311140537262
+2025-12-12 01:00:50,185 INFO this batch accu is: 0.2963818321785989, corr: 385.0, wrong: 914.0
+
+2025-12-12 01:00:50,194 INFO evaluating psychology
+2025-12-12 01:01:08,314 INFO 798size batch costing time: 16.339307069778442
+2025-12-12 01:01:08,334 INFO this batch accu is: 0.5150375939849624, corr: 411.0, wrong: 387.0
+
