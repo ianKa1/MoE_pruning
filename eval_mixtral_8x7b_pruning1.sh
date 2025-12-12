@@ -1,8 +1,8 @@
 #!/bin/bash
 
-save_dir="eval_results1/"
-global_record_file="eval_results1/eval_record_collection.csv"
-model="kaaiiii/Mixtral_prune_1_experts"
+save_dir="eval_results4/"
+global_record_file="eval_results4/eval_record_collection.csv"
+model="kaaiiii/Mixtral_prune_4_experts"
 selected_subjects="all"
 gpu_util=0.8
 

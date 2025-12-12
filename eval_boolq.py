@@ -3,20 +3,22 @@ from tqdm import tqdm
 from datasets import load_dataset
 from vllm import LLM, SamplingParams
 from sklearn.metrics import confusion_matrix
+import torch
+from transformers import AutoTokenizer
 
+MODEL_ID = "kaaiiii/Mixtral_prune_4_experts" 
+MAX_SAMPLES = None     
+OUTPUT_FILE = "boolq_vllm_results_4.json"
 
-MODEL_ID = "kaaiiii/Mixtral_prune_1_experts" 
-MAX_SAMPLES = 100 #         
-OUTPUT_FILE = "boolq_vllm_results_1.json"
-
-YES_TOKEN = " yes"
-NO_TOKEN = " no"
+tokenizer = AutoTokenizer.from_pretrained(MODEL_ID)
+YES_TOKEN = tokenizer.encode(" Yes", add_special_tokens=False)[0]
+NO_TOKEN  = tokenizer.encode(" No",  add_special_tokens=False)[0]
 
 llm = LLM(
     model=MODEL_ID,
     dtype="float16",
     trust_remote_code=True,
-    tensor_parallel_size=2,
+    tensor_parallel_size=torch.cuda.device_count(),
     gpu_memory_utilization=0.60,
     disable_custom_all_reduce=True,
     disable_log_stats=True
@@ -25,7 +27,8 @@ llm = LLM(
 sampling_params = SamplingParams(
     max_tokens=1,
     temperature=0.0,
-    logprobs=5
+    logprobs=20,
+     stop=["\n", "Passage:", "Question:", "Answer:"]
 )
 
 dataset = load_dataset("google/boolq", split="validation")
@@ -38,9 +41,9 @@ labels = []
 
 for item in dataset:
     prompt = (
-        f"Passage:\n{item['passage']}\n\n"
-        f"Question: {item['question']}\n"
-        f"Answer yes or no."
+        f"You are a binary classifier.\nGiven the passage and the question, output ONLY one word.\nDo NOT explain.\nDo NOT output any other text.\nValid outputs:\nYes\nNo"
+        f"\n{item['passage']}\n"
+        f"\n{item['question']}\n Answer: \n"
     )
     prompts.append(prompt)
     labels.append(item["answer"])
@@ -52,11 +55,28 @@ records = []
 
 for idx, output in enumerate(outputs):
     logprobs = output.outputs[0].logprobs[0]
+    answer = output.outputs[0].text
 
-    yes_lp = logprobs.get(YES_TOKEN, -1e9)
-    no_lp = logprobs.get(NO_TOKEN, -1e9)
+    # yes_obj = logprobs.get(YES_TOKEN, None)
+    # no_obj  = logprobs.get(NO_TOKEN,  None)
+    
+    # if yes_obj is None or no_obj is None:
+    #     pred = None   # 或 continue / raise
+    # else:
+    #     yes_lp = yes_obj.logprob
+    #     no_lp  = no_obj.logprob
+    #     pred = yes_lp > no_lp
 
-    pred = yes_lp > no_lp
+    # yes_lp = logprobs.get(YES_TOKEN, -1e9)
+    # no_lp = logprobs.get(NO_TOKEN, -1e9)
+    # pred = yes_lp > no_lp
+    pred = None
+    if answer == "Yes":
+        pred = True
+    else:
+    # That's not right
+    # if answer == "No":
+        pred = False
     label = labels[idx]
 
     preds.append(pred)
@@ -67,8 +87,8 @@ for idx, output in enumerate(outputs):
         "label": label,
         "prediction": pred,
         "correct": pred == label,
-        "logprob_yes": yes_lp,
-        "logprob_no": no_lp
+        # "logprob_yes": yes_lp,
+        # "logprob_no": no_lp
     })
 
 accuracy = sum(p == l for p, l in zip(preds, labels)) / len(labels)
