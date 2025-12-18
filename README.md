@@ -48,10 +48,10 @@ All evaluation results are stored in the `eval_results/` folder.
 
 ## Getting Started
 # Follow the notebooks/scripts in order:
-# 1. fine_tune.ipynb
-# 2. experts_pruning/
-# 3. benchmark_eval/
-```
+
+1. fine_tune.ipynb
+2. experts_pruning/
+3. benchmark_eval/
 
 ## Requirements
 
