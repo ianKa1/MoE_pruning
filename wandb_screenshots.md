@@ -6,3 +6,5 @@
 
 #### Xinyi 
 ![xinyiluo448](./wandb_screenshots/finetune-xluo.png)
+
+![xinyiluo448](./wandb_screenshots/finetune-xluo2.png)
