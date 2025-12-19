@@ -43,19 +43,21 @@ We evaluate pruned models on two benchmarks located in `benchmark_eval/`:
 ⚠️ **Important:** Each benchmark has different environment requirements. Please refer to the respective subdirectories for setup instructions.
 
 ### 4. Results
-#### (MMLU-Pro)
+#### MMLU-Pro
 **Accuracy vs. Experts Pruned**
 <p align="center">
   <img src="./eval_results/chengke/mmlu-pro/MMLU-Pro_comparison.png" width="500" />
 </p>
 
-### Summary Table
+**Summary Table**
 <p align="center">
   <img src="./eval_results/chengke/mmlu-pro/MMLU-Pro_plot.jpg" width="500" />
 </p>
 
 All evaluation results are stored in the `eval_results/` folder.
 
+### 5. wandb project board
+Our wandb results are in `wandb_screenshots.md`. Making wandb project publically available requires additional fees so we provide screenshots instead.
 
 ## Getting Started
 # Follow the notebooks/scripts in order:
