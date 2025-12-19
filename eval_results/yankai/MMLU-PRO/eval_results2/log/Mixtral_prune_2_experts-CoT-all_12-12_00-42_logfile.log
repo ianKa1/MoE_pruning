@@ -1,0 +1,200 @@
+2025-12-12 00:42:24,064 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-12-12 00:42:24,140 DEBUG https://huggingface.co:443 "HEAD /kaaiiii/Mixtral_prune_2_experts/resolve/main/config.json HTTP/1.1" 307 0
+2025-12-12 00:42:24,147 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/kaaiiii/Mixtral_prune_2_experts/b66b1d30a130dbb2585e9614963f47f01e7b3569/config.json HTTP/1.1" 200 0
+2025-12-12 00:42:24,180 DEBUG https://huggingface.co:443 "HEAD /kaaiiii/Mixtral_prune_2_experts/resolve/main/config.json HTTP/1.1" 307 0
+2025-12-12 00:42:24,188 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/kaaiiii/Mixtral_prune_2_experts/b66b1d30a130dbb2585e9614963f47f01e7b3569/config.json HTTP/1.1" 200 0
+2025-12-12 00:42:24,226 DEBUG https://huggingface.co:443 "HEAD /kaaiiii/Mixtral_prune_2_experts/resolve/main/config.json HTTP/1.1" 307 0
+2025-12-12 00:42:24,234 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/kaaiiii/Mixtral_prune_2_experts/b66b1d30a130dbb2585e9614963f47f01e7b3569/config.json HTTP/1.1" 200 0
+2025-12-12 00:42:24,272 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/tree/main?recursive=True&expand=False HTTP/1.1" 200 12747
+2025-12-12 00:42:24,312 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/tree/main?recursive=True&expand=False HTTP/1.1" 200 12747
+2025-12-12 00:42:24,348 DEBUG https://huggingface.co:443 "HEAD /kaaiiii/Mixtral_prune_2_experts/resolve/main/preprocessor_config.json HTTP/1.1" 404 0
+2025-12-12 00:42:30,643 DEBUG https://huggingface.co:443 "HEAD /kaaiiii/Mixtral_prune_2_experts/resolve/main/config.json HTTP/1.1" 307 0
+2025-12-12 00:42:30,653 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/kaaiiii/Mixtral_prune_2_experts/b66b1d30a130dbb2585e9614963f47f01e7b3569/config.json HTTP/1.1" 200 0
+2025-12-12 00:42:30,682 DEBUG https://huggingface.co:443 "HEAD /kaaiiii/Mixtral_prune_2_experts/resolve/main/config.json HTTP/1.1" 307 0
+2025-12-12 00:42:30,689 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/kaaiiii/Mixtral_prune_2_experts/b66b1d30a130dbb2585e9614963f47f01e7b3569/config.json HTTP/1.1" 200 0
+2025-12-12 00:42:30,779 DEBUG https://huggingface.co:443 "HEAD /kaaiiii/Mixtral_prune_2_experts/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-12-12 00:42:30,788 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/kaaiiii/Mixtral_prune_2_experts/b66b1d30a130dbb2585e9614963f47f01e7b3569/tokenizer_config.json HTTP/1.1" 200 0
+2025-12-12 00:42:30,838 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-12-12 00:42:30,887 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/tree/main?recursive=True&expand=False HTTP/1.1" 200 12747
+2025-12-12 00:42:31,028 DEBUG https://huggingface.co:443 "HEAD /kaaiiii/Mixtral_prune_2_experts/resolve/main/generation_config.json HTTP/1.1" 307 0
+2025-12-12 00:42:31,036 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/kaaiiii/Mixtral_prune_2_experts/b66b1d30a130dbb2585e9614963f47f01e7b3569/generation_config.json HTTP/1.1" 200 0
+2025-12-12 00:42:36,595 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-12-12 00:42:36,618 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-12-12 00:42:36,619 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-12-12 00:42:36,619 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-12-12 00:42:36,643 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts HTTP/1.1" 200 4514
+2025-12-12 00:42:36,665 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts HTTP/1.1" 200 4514
+2025-12-12 00:42:36,668 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts HTTP/1.1" 200 4514
+2025-12-12 00:42:36,668 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts HTTP/1.1" 200 4514
+2025-12-12 00:42:36,688 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/tree/main?recursive=False&expand=False HTTP/1.1" 200 12747
+2025-12-12 00:42:36,689 DEBUG Attempting to acquire lock 139765133114000 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,689 DEBUG Lock 139765133114000 acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,711 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/tree/main?recursive=False&expand=False HTTP/1.1" 200 12747
+2025-12-12 00:42:36,713 DEBUG Attempting to acquire lock 139765133114912 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,713 DEBUG Lock 139765133114912 not acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock, waiting 0.05 seconds ...
+2025-12-12 00:42:36,717 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/tree/main?recursive=False&expand=False HTTP/1.1" 200 12747
+2025-12-12 00:42:36,719 DEBUG Attempting to acquire lock 139765133114912 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,719 DEBUG Lock 139765133114912 not acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock, waiting 0.05 seconds ...
+2025-12-12 00:42:36,721 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/revision/main HTTP/1.1" 200 4514
+2025-12-12 00:42:36,727 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/tree/main?recursive=False&expand=False HTTP/1.1" 200 12747
+2025-12-12 00:42:36,728 DEBUG Attempting to acquire lock 139765133145856 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,728 DEBUG Lock 139765133145856 not acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock, waiting 0.05 seconds ...
+2025-12-12 00:42:36,731 DEBUG Attempting to release lock 139765133114000 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,731 DEBUG Lock 139765133114000 released on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,732 DEBUG Attempting to acquire lock 139765133114672 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,732 DEBUG Lock 139765133114672 acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,763 DEBUG Attempting to acquire lock 139765133114912 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,763 DEBUG Lock 139765133114912 not acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock, waiting 0.05 seconds ...
+2025-12-12 00:42:36,764 DEBUG https://huggingface.co:443 "HEAD /kaaiiii/Mixtral_prune_2_experts/resolve/main/model.safetensors.index.json HTTP/1.1" 307 0
+2025-12-12 00:42:36,769 DEBUG Attempting to acquire lock 139765133114912 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,769 DEBUG Lock 139765133114912 not acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock, waiting 0.05 seconds ...
+2025-12-12 00:42:36,772 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/kaaiiii/Mixtral_prune_2_experts/b66b1d30a130dbb2585e9614963f47f01e7b3569/model.safetensors.index.json HTTP/1.1" 200 0
+2025-12-12 00:42:36,772 DEBUG Attempting to release lock 139765133114672 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,772 DEBUG Lock 139765133114672 released on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,778 DEBUG Attempting to acquire lock 139765133145856 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,778 DEBUG Lock 139765133145856 acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,811 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/revision/main HTTP/1.1" 200 4514
+2025-12-12 00:42:36,813 DEBUG Attempting to acquire lock 139765133114912 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,813 DEBUG Lock 139765133114912 not acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock, waiting 0.05 seconds ...
+2025-12-12 00:42:36,819 DEBUG Attempting to acquire lock 139765133114912 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,819 DEBUG Lock 139765133114912 not acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock, waiting 0.05 seconds ...
+2025-12-12 00:42:36,821 DEBUG Attempting to release lock 139765133145856 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,821 DEBUG Lock 139765133145856 released on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,821 DEBUG Attempting to acquire lock 139765133146816 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,821 DEBUG Lock 139765133146816 acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,853 DEBUG https://huggingface.co:443 "HEAD /kaaiiii/Mixtral_prune_2_experts/resolve/main/model.safetensors.index.json HTTP/1.1" 307 0
+2025-12-12 00:42:36,861 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/kaaiiii/Mixtral_prune_2_experts/b66b1d30a130dbb2585e9614963f47f01e7b3569/model.safetensors.index.json HTTP/1.1" 200 0
+2025-12-12 00:42:36,862 DEBUG Attempting to release lock 139765133146816 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,862 DEBUG Lock 139765133146816 released on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,864 DEBUG Attempting to acquire lock 139765133114912 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,864 DEBUG Lock 139765133114912 acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,870 DEBUG Attempting to acquire lock 139765133114912 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,870 DEBUG Lock 139765133114912 not acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock, waiting 0.05 seconds ...
+2025-12-12 00:42:36,897 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/revision/main HTTP/1.1" 200 4514
+2025-12-12 00:42:36,908 DEBUG Attempting to release lock 139765133114912 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,908 DEBUG Lock 139765133114912 released on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,908 DEBUG Attempting to acquire lock 139765133113712 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,908 DEBUG Lock 139765133113712 acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,920 DEBUG Attempting to acquire lock 139765133114912 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,920 DEBUG Lock 139765133114912 not acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock, waiting 0.05 seconds ...
+2025-12-12 00:42:36,945 DEBUG https://huggingface.co:443 "HEAD /kaaiiii/Mixtral_prune_2_experts/resolve/main/model.safetensors.index.json HTTP/1.1" 307 0
+2025-12-12 00:42:36,957 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/kaaiiii/Mixtral_prune_2_experts/b66b1d30a130dbb2585e9614963f47f01e7b3569/model.safetensors.index.json HTTP/1.1" 200 0
+2025-12-12 00:42:36,957 DEBUG Attempting to release lock 139765133113712 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,958 DEBUG Lock 139765133113712 released on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,971 DEBUG Attempting to acquire lock 139765133114912 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:36,971 DEBUG Lock 139765133114912 acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:37,004 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/revision/main HTTP/1.1" 200 4514
+2025-12-12 00:42:37,016 DEBUG Attempting to release lock 139765133114912 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:37,017 DEBUG Lock 139765133114912 released on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:37,017 DEBUG Attempting to acquire lock 139765133114624 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:37,017 DEBUG Lock 139765133114624 acquired on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:37,047 DEBUG https://huggingface.co:443 "HEAD /kaaiiii/Mixtral_prune_2_experts/resolve/main/model.safetensors.index.json HTTP/1.1" 307 0
+2025-12-12 00:42:37,053 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/kaaiiii/Mixtral_prune_2_experts/b66b1d30a130dbb2585e9614963f47f01e7b3569/model.safetensors.index.json HTTP/1.1" 200 0
+2025-12-12 00:42:37,054 DEBUG Attempting to release lock 139765133114624 on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:37,054 DEBUG Lock 139765133114624 released on /tmp/0374d32a0e9eff34a689c42f01cecb09bf3b2b0faea59175333d3606ffa79e41kaaiiii-Mixtral_prune_2_experts.lock
+2025-12-12 00:42:40,032 DEBUG Starting new HTTPS connection (1): stats.vllm.ai:443
+2025-12-12 00:42:40,164 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-12-12 00:43:33,745 DEBUG Starting new HTTPS connection (1): huggingface.co:443
+2025-12-12 00:43:33,823 DEBUG https://huggingface.co:443 "HEAD /kaaiiii/Mixtral_prune_2_experts/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-12-12 00:43:33,829 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/kaaiiii/Mixtral_prune_2_experts/b66b1d30a130dbb2585e9614963f47f01e7b3569/tokenizer_config.json HTTP/1.1" 200 0
+2025-12-12 00:43:33,864 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-12-12 00:43:33,900 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/tree/main?recursive=True&expand=False HTTP/1.1" 200 12747
+2025-12-12 00:43:34,245 DEBUG https://huggingface.co:443 "HEAD /kaaiiii/Mixtral_prune_2_experts/resolve/main/tokenizer_config.json HTTP/1.1" 307 0
+2025-12-12 00:43:34,253 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/models/kaaiiii/Mixtral_prune_2_experts/b66b1d30a130dbb2585e9614963f47f01e7b3569/tokenizer_config.json HTTP/1.1" 200 0
+2025-12-12 00:43:34,288 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+2025-12-12 00:43:34,324 DEBUG https://huggingface.co:443 "GET /api/models/kaaiiii/Mixtral_prune_2_experts/tree/main?recursive=True&expand=False HTTP/1.1" 200 12747
+2025-12-12 00:43:34,446 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/main/README.md HTTP/1.1" 307 0
+2025-12-12 00:43:34,453 DEBUG https://huggingface.co:443 "HEAD /api/resolve-cache/datasets/TIGER-Lab/MMLU-Pro/dd36ce4b34827164989f100331f82c5a29741747/README.md HTTP/1.1" 200 0
+2025-12-12 00:43:34,483 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/dd36ce4b34827164989f100331f82c5a29741747/MMLU-Pro.py HTTP/1.1" 404 0
+2025-12-12 00:43:34,484 DEBUG Starting new HTTPS connection (1): s3.amazonaws.com:443
+2025-12-12 00:43:34,564 DEBUG https://s3.amazonaws.com:443 "HEAD /datasets.huggingface.co/datasets/datasets/TIGER-Lab/MMLU-Pro/TIGER-Lab/MMLU-Pro.py HTTP/1.1" 404 0
+2025-12-12 00:43:34,603 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/revision/dd36ce4b34827164989f100331f82c5a29741747 HTTP/1.1" 200 2320
+2025-12-12 00:43:34,708 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/dd36ce4b34827164989f100331f82c5a29741747/.huggingface.yaml HTTP/1.1" 404 0
+2025-12-12 00:43:34,709 DEBUG Starting new HTTPS connection (1): datasets-server.huggingface.co:443
+2025-12-12 00:43:35,020 DEBUG https://datasets-server.huggingface.co:443 "GET /info?dataset=TIGER-Lab/MMLU-Pro HTTP/1.1" 200 None
+2025-12-12 00:43:35,156 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/tree/dd36ce4b34827164989f100331f82c5a29741747/data?recursive=True&expand=False HTTP/1.1" 200 629
+2025-12-12 00:43:35,188 DEBUG https://huggingface.co:443 "GET /api/datasets/TIGER-Lab/MMLU-Pro/tree/dd36ce4b34827164989f100331f82c5a29741747?recursive=False&expand=False HTTP/1.1" 200 492
+2025-12-12 00:43:35,263 DEBUG https://huggingface.co:443 "HEAD /datasets/TIGER-Lab/MMLU-Pro/resolve/dd36ce4b34827164989f100331f82c5a29741747/dataset_infos.json HTTP/1.1" 404 0
+2025-12-12 00:43:35,265 DEBUG Attempting to acquire lock 139764746215888 on /workspace/.hf_home/datasets/_workspace_.hf_home_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_dd36ce4b34827164989f100331f82c5a29741747.lock
+2025-12-12 00:43:35,265 DEBUG Lock 139764746215888 acquired on /workspace/.hf_home/datasets/_workspace_.hf_home_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_dd36ce4b34827164989f100331f82c5a29741747.lock
+2025-12-12 00:43:35,265 DEBUG open file: /workspace/.hf_home/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/dd36ce4b34827164989f100331f82c5a29741747/dataset_info.json
+2025-12-12 00:43:35,266 DEBUG Attempting to release lock 139764746215888 on /workspace/.hf_home/datasets/_workspace_.hf_home_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_dd36ce4b34827164989f100331f82c5a29741747.lock
+2025-12-12 00:43:35,266 DEBUG Lock 139764746215888 released on /workspace/.hf_home/datasets/_workspace_.hf_home_datasets_TIGER-Lab___mmlu-pro_default_0.0.0_dd36ce4b34827164989f100331f82c5a29741747.lock
+2025-12-12 00:43:35,285 DEBUG Attempting to acquire lock 139763062625504 on /workspace/.hf_home/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/dd36ce4b34827164989f100331f82c5a29741747_builder.lock
+2025-12-12 00:43:35,285 DEBUG Lock 139763062625504 acquired on /workspace/.hf_home/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/dd36ce4b34827164989f100331f82c5a29741747_builder.lock
+2025-12-12 00:43:35,286 DEBUG open file: /workspace/.hf_home/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/dd36ce4b34827164989f100331f82c5a29741747/dataset_info.json
+2025-12-12 00:43:35,286 DEBUG Attempting to release lock 139763062625504 on /workspace/.hf_home/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/dd36ce4b34827164989f100331f82c5a29741747_builder.lock
+2025-12-12 00:43:35,286 DEBUG Lock 139763062625504 released on /workspace/.hf_home/datasets/TIGER-Lab___mmlu-pro/default/0.0.0/dd36ce4b34827164989f100331f82c5a29741747_builder.lock
+2025-12-12 00:43:35,861 INFO selected subjects:
+business
+law
+psychology
+biology
+chemistry
+history
+other
+health
+economics
+math
+physics
+computer science
+philosophy
+engineering
+2025-12-12 00:43:35,862 INFO evaluating biology
+2025-12-12 00:44:44,240 INFO 717size batch costing time: 66.1630756855011
+2025-12-12 00:44:48,502 INFO this batch accu is: 0.6136680613668062, corr: 440.0, wrong: 277.0
+
+2025-12-12 00:44:48,511 INFO evaluating business
+2025-12-12 00:45:53,199 INFO 789size batch costing time: 63.08226656913757
+2025-12-12 00:45:54,641 INFO this batch accu is: 0.33840304182509506, corr: 267.0, wrong: 522.0
+
+2025-12-12 00:45:54,672 INFO evaluating chemistry
+2025-12-12 00:47:48,646 INFO 1132size batch costing time: 111.44783020019531
+2025-12-12 00:48:02,917 INFO this batch accu is: 0.23851590106007067, corr: 270.0, wrong: 862.0
+
+2025-12-12 00:48:02,952 INFO evaluating computer science
+2025-12-12 00:49:02,972 INFO 410size batch costing time: 58.96146035194397
+2025-12-12 00:49:04,127 INFO this batch accu is: 0.3780487804878049, corr: 155.0, wrong: 255.0
+
+2025-12-12 00:49:04,132 INFO evaluating economics
+2025-12-12 00:50:05,906 INFO 844size batch costing time: 59.99274659156799
+2025-12-12 00:50:05,994 INFO this batch accu is: 0.5059241706161137, corr: 427.0, wrong: 417.0
+
+2025-12-12 00:50:06,000 INFO evaluating engineering
+2025-12-12 00:51:35,343 INFO 969size batch costing time: 87.52320909500122
+2025-12-12 00:51:41,218 INFO this batch accu is: 0.2755417956656347, corr: 267.0, wrong: 702.0
+
+2025-12-12 00:51:41,229 INFO evaluating health
+2025-12-12 00:52:40,267 DEBUG Resetting dropped connection: stats.vllm.ai
+2025-12-12 00:52:40,348 DEBUG https://stats.vllm.ai:443 "POST / HTTP/1.1" 200 None
+2025-12-12 00:52:40,730 INFO 818size batch costing time: 57.81059670448303
+2025-12-12 00:52:43,547 INFO this batch accu is: 0.43031784841075793, corr: 352.0, wrong: 466.0
+
+2025-12-12 00:52:43,556 INFO evaluating history
+2025-12-12 00:53:21,009 INFO 381size batch costing time: 33.149993896484375
+2025-12-12 00:53:21,939 INFO this batch accu is: 0.41732283464566927, corr: 159.0, wrong: 222.0
+
+2025-12-12 00:53:21,944 INFO evaluating law
+2025-12-12 00:54:29,125 INFO 1101size batch costing time: 63.96992492675781
+2025-12-12 00:54:30,711 INFO this batch accu is: 0.23705722070844687, corr: 261.0, wrong: 840.0
+
+2025-12-12 00:54:30,726 INFO evaluating math
+2025-12-12 00:57:10,448 INFO 1351size batch costing time: 156.4117579460144
+2025-12-12 00:57:39,399 INFO this batch accu is: 0.306439674315322, corr: 414.0, wrong: 937.0
+
+2025-12-12 00:57:39,413 INFO evaluating other
+2025-12-12 00:57:59,391 INFO 924size batch costing time: 18.410693407058716
+2025-12-12 00:57:59,408 INFO this batch accu is: 0.4264069264069264, corr: 394.0, wrong: 530.0
+
+2025-12-12 00:57:59,415 INFO evaluating philosophy
+2025-12-12 00:58:55,660 INFO 499size batch costing time: 55.38395643234253
+2025-12-12 00:59:19,967 INFO this batch accu is: 0.35671342685370744, corr: 178.0, wrong: 321.0
+
+2025-12-12 00:59:19,975 INFO evaluating physics
+2025-12-12 01:00:47,906 INFO 1299size batch costing time: 85.3311140537262
+2025-12-12 01:00:50,185 INFO this batch accu is: 0.2963818321785989, corr: 385.0, wrong: 914.0
+
+2025-12-12 01:00:50,194 INFO evaluating psychology
+2025-12-12 01:01:08,314 INFO 798size batch costing time: 16.339307069778442
+2025-12-12 01:01:08,334 INFO this batch accu is: 0.5150375939849624, corr: 411.0, wrong: 387.0
+
