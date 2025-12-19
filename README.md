@@ -45,11 +45,17 @@ We evaluate pruned models on two benchmarks located in `benchmark_eval/`:
 ### 4. Results
 #### (MMLU-Pro)
 **Accuracy vs. Experts Pruned**
-![MMLU-Pro accuracy vs experts pruned](./eval_results/chengke/mmlu-pro/MMLU-Pro_comparison.png)
+<p align="center">
+  <img src="./eval_results/chengke/mmlu-pro/MMLU-Pro_comparison.png" width="500" />
+</p>
 
 ### Summary Table
-![MMLU-Pro results table](./eval_results/chengke/mmlu-pro/MMLU-Pro_plot.jpg)
+<p align="center">
+  <img src="./eval_results/chengke/mmlu-pro/MMLU-Pro_plot.jpg" width="500" />
+</p>
+
 All evaluation results are stored in the `eval_results/` folder.
+
 
 ## Getting Started
 # Follow the notebooks/scripts in order:
